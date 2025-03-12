@@ -60,7 +60,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
    Adjust the file path in the main script (`Persiantokenization&morphologicalanalysis.ipynb`) to point to your Persian text PDF and run the notebook/script:
 
    ```bash
-   jupyter notebook Persiantokenization&morphologicalanalysis.ipynb
+   Colab notebook Persiantokenization&morphologicalanalysis.ipynb
    ```
 
 4. **Output:**
@@ -73,7 +73,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 ```
 ├── README.md             # This readme file
 ├── requirements.txt      # List of dependencies
-├── Persiantokenization&morphologicalanalysis.ipynb            # Main Jupyter notebook with the full pipeline
+├── Persiantokenization&morphologicalanalysis.ipynb            # Main Colab notebook with the full pipeline
 ├── src/
 │   ├── Extract the Text    # PDF text extraction and OCR functions
 │   ├── Preprocessing  # Functions to remove English words and normalize spacing
@@ -86,7 +86,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check [issues page](https://github.com/yourusername/persian-effective-unit-extractor/issues).
+Feel free to check [issues page](https://github.com/negarhonarvar/Persian-NLP/issues).
 
 
 ## License
