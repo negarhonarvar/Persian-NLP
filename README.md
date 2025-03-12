@@ -42,8 +42,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/persian-effective-unit-extractor.git
-   cd persian-effective-unit-extractor
+   git clone https://github.com/yourusername/Persian-NLP.git
    ```
 
 2. **Install Dependencies:**
@@ -58,10 +57,10 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 
 3. **Run the Pipeline:**
 
-   Adjust the file path in the main script (`main.ipynb` or `main.py`) to point to your Persian text PDF and run the notebook/script:
+   Adjust the file path in the main script (`Persiantokenization&morphologicalanalysis.ipynb`) to point to your Persian text PDF and run the notebook/script:
 
    ```bash
-   jupyter notebook main.ipynb
+   jupyter notebook Persiantokenization&morphologicalanalysis.ipynb
    ```
 
 4. **Output:**
@@ -74,13 +73,12 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 ```
 ├── README.md             # This readme file
 ├── requirements.txt      # List of dependencies
-├── main.ipynb            # Main Jupyter notebook with the full pipeline
+├── Persiantokenization&morphologicalanalysis.ipynb            # Main Jupyter notebook with the full pipeline
 ├── src/
-│   ├── pdf_extraction.py # PDF text extraction and OCR functions
-│   ├── preprocessing.py  # Functions to remove English words and normalize spacing
-│   ├── morphology.py     # Tokenization and morphological segmentation using Hazm/Parsivar
-│   ├── minimal_set.py    # Extraction and cleaning of minimal effective units
-│   └── verb_simplification.py  # Verb simplification functions
+│   ├── Extract the Text    # PDF text extraction and OCR functions
+│   ├── Preprocessing  # Functions to remove English words and normalize spacing
+│   ├── Tokenization & Morphological Analysis     # Tokenization and morphological segmentation using Hazm/Parsivar
+│   ├── Minimal Set Extraction   # Extraction and cleaning of minimal effective units and Verb simplification functions
 └── sample.pdf            # Sample Persian text PDF (for testing)
 ```
 
