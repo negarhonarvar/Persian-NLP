@@ -14,7 +14,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 - **Normalization:** The pipeline corrects spacing issues, replaces thin spaces with regular spaces, and removes zero-width joiners to ensure consistent formatting.
 
 
-## Pipeline Steps
+## Pipeline Steps 
 
 1. **PDF Text Extraction:**  
    - The text is extracted from a PDF file using OCR (with Tesseract) to handle complex Persian encoding issues.
@@ -37,7 +37,7 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
    - The pipeline includes specific rules to handle multiple conjugations of common verbs like "بود" and auxiliary verbs like "هستن".
    - If a token contains a separator (e.g. “#” or “&”), only the substring after the separator is retained.
 
-## How to Use
+## How to Use 📋
 
 1. **Clone the Repository:**
 
@@ -83,18 +83,18 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 ```
 
 
-## Contributing
+## Contributing 🪧
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to check [issues page](https://github.com/negarhonarvar/Persian-NLP/issues).
 
 
-## License
+## License 🛡️
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 
-## Acknowledgments
+## Acknowledgments :grey_exclamation:
 
 - [Hazm](https://github.com/sobhe/hazm) for Persian NLP tools.
 - [Parsivar](https://github.com/ICTRC/Parsivar) for morphological analysis.
