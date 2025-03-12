@@ -2,7 +2,6 @@
 
 This repository contains a complete pipeline for extracting the **minimal set of effective units** from Persian text. The project includes all major steps from PDF extraction, preprocessing, morphological segmentation, minimal set extraction, and verb simplification—all implemented using open-source libraries.
 
----
 
 ## Overview
 
@@ -14,7 +13,6 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 - **Verb simplification:** Conjugated forms are reduced to their base (infinitive) form, with special handling for irregular verbs like "بود" and auxiliary verbs like "هستن".
 - **Normalization:** The pipeline corrects spacing issues, replaces thin spaces with regular spaces, and removes zero-width joiners to ensure consistent formatting.
 
----
 
 ## Pipeline Steps
 
@@ -38,8 +36,6 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
    - Conjugated verbs are converted to their simple (base) forms.
    - The pipeline includes specific rules to handle multiple conjugations of common verbs like "بود" and auxiliary verbs like "هستن".
    - If a token contains a separator (e.g. “#” or “&”), only the substring after the separator is retained.
-
----
 
 ## How to Use
 
@@ -72,7 +68,6 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 
    The final output is stored as a CSV file containing the minimal set of effective units extracted from the text.
 
----
 
 ## Project Structure
 
@@ -89,20 +84,17 @@ The goal of this project is to process a Persian text PDF and produce a CSV file
 └── sample.pdf            # Sample Persian text PDF (for testing)
 ```
 
----
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to check [issues page](https://github.com/yourusername/persian-effective-unit-extractor/issues).
 
----
 
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
----
 
 ## Acknowledgments
 
@@ -111,6 +103,6 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) and [pdf2image](https://github.com/Belval/pdf2image) for robust PDF text extraction.
 - The Persian NLP community for open-source resources and research.
 
----
+
 
 *Enjoy extracting effective units from Persian texts!*
